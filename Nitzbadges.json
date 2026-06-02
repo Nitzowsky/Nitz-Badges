@@ -56,7 +56,7 @@
       "id": "hdr",
       "groupId": "video-tech",
       "name": "HDR",
-      "pattern": (?i)^(?=.*\\bHDR\\b)(?!.*hdr[\\s._-]?10)",
+      "pattern": "(?i)^(?=.*\\bHDR\\b)(?!.*hdr[\\s._-]?10)",
       "imageURL": "https://raw.githubusercontent.com/leonevz/Elite-Badges/main/Badges/hdr.png",
       "tagColor": "#00000000",
       "borderColor": "#00000000",
