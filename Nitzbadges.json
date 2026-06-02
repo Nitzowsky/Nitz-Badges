@@ -43,7 +43,7 @@
       "id": "hdr10",
       "groupId": "video-tech",
       "name": "HDR10",
-      "pattern": "(?i)^(?!.*\\b(?:hdr10+|10[\\s._-]?+)\\b)(?=.*hdr[\\s._-]?10)(?!.*hdr[\\s._-]?10[\\s._-]?(?:\\\\+|plus|p))",
+      "pattern": "(?i)^(?!.*\\b(?:hdr10+|10+|hdr10[\\s._-]?+)\\b)(?=.*hdr[\\s._-]?10)(?!.*hdr[\\s._-]?10)\\s*+|hdr10\\b",
       "imageURL": "https://raw.githubusercontent.com/leonevz/Elite-Badges/main/Badges/hdr10.png",
       "tagColor": "#00000000",
       "borderColor": "#00000000",
