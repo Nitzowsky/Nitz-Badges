@@ -30,7 +30,7 @@
       "id": "hdr10-plus",
       "groupId": "video-tech",
       "name": "HDR10+",
-      "pattern": "(?i)\\b(hdr10+\\s*+|hdr10+|10+)\\b",
+      "pattern": "(?i)\\bhdr10+|10+)\\b",
       "imageURL": "https://raw.githubusercontent.com/leonevz/Elite-Badges/main/Badges/hdr10_plus.png",
       "tagColor": "#00000000",
       "borderColor": "#00000000",
