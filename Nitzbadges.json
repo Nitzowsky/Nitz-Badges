@@ -66,19 +66,6 @@
       "type": "filter"
     },
     {
-      "id": "dolby-vision",
-      "groupId": "video-tech",
-      "name": "Dolby Vision",
-      "pattern": "(?i)\\b(dolby\\s*vision|dovi|dv)\\b",
-      "imageURL": "https://raw.githubusercontent.com/leonevz/Elite-Badges/main/Badges/dolby_vision.png",
-      "tagColor": "#00000000",
-      "borderColor": "#00000000",
-      "textColor": "#00000000",
-      "tagStyle": "filled and bordered",
-      "isEnabled": true,
-      "type": "filter"
-    },
-    {
       "id": "imax-enhanced",
       "groupId": "video-tech",
       "name": "IMAX Enhanced",
@@ -118,32 +105,6 @@
       "type": "filter"
     },
     {
-      "id": "dolby-digital-plus",
-      "groupId": "audio-tech",
-      "name": "Dolby Digital Plus",
-      "pattern": "(?i)\\b(dolby\\s*digital\\s*plus|dd\\+|ddp|eac3|e-ac-3)\\b",
-      "imageURL": "https://raw.githubusercontent.com/leonevz/Elite-Badges/main/Badges/dolby_digital_plus.png",
-      "tagColor": "#00000000",
-      "borderColor": "#00000000",
-      "textColor": "#00000000",
-      "tagStyle": "filled and bordered",
-      "isEnabled": true,
-      "type": "filter"
-    },
-    {
-      "id": "dolby-digital",
-      "groupId": "audio-tech",
-      "name": "Dolby Digital",
-      "pattern": "(?i)\\b(dolby\\s*digital|dd|ac3|ac-3)\\b",
-      "imageURL": "https://raw.githubusercontent.com/leonevz/Elite-Badges/main/Badges/dolby_digital.png",
-      "tagColor": "#00000000",
-      "borderColor": "#00000000",
-      "textColor": "#00000000",
-      "tagStyle": "filled and bordered",
-      "isEnabled": true,
-      "type": "filter"
-    },
-    {
       "id": "truehd",
       "groupId": "audio-tech",
       "name": "TrueHD",
@@ -157,11 +118,11 @@
       "type": "filter"
     },
     {
-      "id": "dts",
+      "id": "dolby-digital-plus",
       "groupId": "audio-tech",
-      "name": "DTS",
-      "pattern": "(?i)\\bdts\\b",
-      "imageURL": "https://raw.githubusercontent.com/leonevz/Elite-Badges/main/Badges/dts.png",
+      "name": "Dolby Digital Plus",
+      "pattern": "(?i)\\b(dolby\\s*digital\\s*plus|dd\\+|ddp|eac3|e-ac-3)\\b",
+      "imageURL": "https://raw.githubusercontent.com/leonevz/Elite-Badges/main/Badges/dolby_digital_plus.png",
       "tagColor": "#00000000",
       "borderColor": "#00000000",
       "textColor": "#00000000",
@@ -170,11 +131,11 @@
       "type": "filter"
     },
     {
-      "id": "dts-hd",
+      "id": "dts-x",
       "groupId": "audio-tech",
-      "name": "DTS-HD",
-      "pattern": "(?i)\\b(dts[\\s._-]*hd|dtshd)\\b",
-      "imageURL": "https://raw.githubusercontent.com/leonevz/Elite-Badges/main/Badges/dts_hd.png",
+      "name": "DTS:X",
+      "pattern": "(?i)\\b(dts[:\\s._-]*x)\\b",
+      "imageURL": "https://raw.githubusercontent.com/leonevz/Elite-Badges/main/Badges/dts_x.png",
       "tagColor": "#00000000",
       "borderColor": "#00000000",
       "textColor": "#00000000",
@@ -196,11 +157,24 @@
       "type": "filter"
     },
     {
-      "id": "dts-x",
+      "id": "dts-hd",
       "groupId": "audio-tech",
-      "name": "DTS:X",
-      "pattern": "(?i)\\b(dts[:\\s._-]*x)\\b",
-      "imageURL": "https://raw.githubusercontent.com/leonevz/Elite-Badges/main/Badges/dts_x.png",
+      "name": "DTS-HD",
+      "pattern": "(?i)\\b(dts[\\s._-]*hd|dtshd)\\b",
+      "imageURL": "https://raw.githubusercontent.com/leonevz/Elite-Badges/main/Badges/dts_hd.png",
+      "tagColor": "#00000000",
+      "borderColor": "#00000000",
+      "textColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "isEnabled": true,
+      "type": "filter"
+    },
+    {
+      "id": "dts",
+      "groupId": "audio-tech",
+      "name": "DTS",
+      "pattern": "(?i)\\bdts\\b",
+      "imageURL": "https://raw.githubusercontent.com/leonevz/Elite-Badges/main/Badges/dts.png",
       "tagColor": "#00000000",
       "borderColor": "#00000000",
       "textColor": "#00000000",
