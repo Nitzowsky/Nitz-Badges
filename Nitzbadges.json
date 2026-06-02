@@ -76,7 +76,7 @@
       "textColor": "#00000000",
       "tagStyle": "filled and bordered",
       "isEnabled": true,
-	    "type": "filter"
+	  "type": "filter"
     },
     {
       "id": "imax-enhanced",
