@@ -277,6 +277,13 @@
       "isExpanded": true
     },
     {
+      "id": "bit-depth",
+      "name": "Bit Depth",
+      "color": "#00000000",
+      "borderColor": "#00000000",
+      "isExpanded": true
+    },
+    {
       "id": "audio-tech",
       "name": "Audio Tech",
       "color": "#00000000",
