@@ -57,7 +57,7 @@
       "groupId": "video-tech",
       "name": "HDR",
       "pattern": "(?i)^(?=.*\\bHDR\\b)(?!.*hdr[\\s._-]?10)",
-      "imageURL": "https://github.com/Nitzowsky/Nitz-Badges/blob/main/HDR.png",
+      "imageURL": "https://raw.githubusercontent.com/Nitzowsky/Nitz-Badges/refs/heads/main/HDR.png",
       "tagColor": "#00000000",
       "borderColor": "#00000000",
       "textColor": "#00000000",
